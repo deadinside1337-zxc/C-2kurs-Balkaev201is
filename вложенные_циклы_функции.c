@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Вывод массива на экран */
+//Вывод массива на экран 
 void print(int arr[], int n)
 {
 	for (int i = 0; i < n; i++)
@@ -8,7 +8,7 @@ void print(int arr[], int n)
 	printf("\n");
 }
 
-/* Сортировка массива методом пузырька */
+//Сортировка массива методом пузырька
 void sort(int arr[], int n)
 {
 	for (int i = 0; i < n - 1; i++) {
@@ -37,7 +37,7 @@ int main(void)
 	for (int i = 0; i < n; i++)
 		scanf("%d", &a[i]);
 	
-	sort(a, n);
+	sort(a, n);  //вызов функций
 	print(a, n);
 	
 	return 0;
